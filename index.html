@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média de alunos</title>
+</head>
+<body>
+
+<main>
+    <h1>Média Escolar</h1>
+    <input type="text" name="" id="nome" placeholder="Insira o nome do aluno"> <br>
+
+    <input type="number" name="" id="media" placeholder="Média(Média da escola)"> <br>
+
+    <input type="number" name="" id="nota1" placeholder="Insira a nota 1"> <br>
+
+    <input type="number" name="" id="nota2" placeholder="Insira a nota 2"><br>
+
+    <input type="number" name="" id="nota3" placeholder="Insira a nota 2"><br>
+
+    <input type="number" name="" id="nota4" placeholder="Insira a nota 2"><br>
+
+    <input type="submit" id="calcular" value="Calcular Média" onclick="calcular"><br>
+
+    <h1 id="resultado"></h1>
+</main>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        main{
+            border: solid 5px cadetblue;
+            border-radius: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: cadetblue;
+            font-style: italic;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        input{
+            background-color: aquamarine;
+            width: 200px;
+            height: 40px;
+            border-radius: 5px;
+        }
+        input::placeholder{
+            font-weight: 900;
+        }
+        input:focus{
+            font-weight: 900;
+        }
+
+        #calcular{
+            cursor: pointer;
+
+        }
+    </style>
+</body>
+<script src="script.js"></script>
+</html>
